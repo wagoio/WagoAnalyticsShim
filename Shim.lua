@@ -7,7 +7,9 @@ function WagoAnalyticsShim:Register(wagoID)
 	else
 		return setmetatable({}, {
 			__index = {
-				Counter = function() end,
+				IncrementCounter = function() end,
+				DecrementCounter = function() end,
+				SetCounter = function() end,
 				Switch = function() end,
 				Error = function() end,
 				Breadcrumb = function() end
