@@ -1,13 +1,13 @@
-In your plugin's pkgmeta file, add the following:
+In your plugin's `.pkgmeta` file, add the following:
 
 ```
 externals:
   libs/WagoAnalytics:
-    url: https://github.com/methodgg/WagoAnalytics.git
+    url: https://github.com/wagoio/WagoAnalytics.git
     branch: main
 ```
 
-And in your toc file, add the following:
+And in your `.toc` file, add the following:
 ```
 ## OptionalDependencies: WagoAnalytics
 
